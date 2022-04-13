@@ -1,0 +1,62 @@
+$bg-colour: #FCFCE5;
+$color-01: #E8E8C5;
+$color-02: #80659C;
+$color-03: #D6C5E8;
+$color-04: #9C9C75;
+$color-05: #695967;
+
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    a {
+        background-color: $bg-colour important;
+        color: $color-05;
+        font-weight: 600;
+    }
+
+    a:hover {
+        border-radius: 5px;
+        background-color: $color-03;
+    }
+}
+
+.work-timeline {
+    background-color: $bg-colour;
+    height: auto;
+
+    h4 {
+        text-align: center;
+    }
+
+    .card {
+        border: 0px;
+    }
+}
+
+.card {
+    max-height: 100px important;
+
+}
+
+footer {
+    background-color: $color-05;
+    color: $color-01;
+}
+
+.modal-content {
+    background-color: $color-02;
+
+}
+
+.carousel-inner {
+    img {
+        width: 100%;
+    }
+}
+
+@import 'television';
+@import 'cinema';
+@import 'teatro';
+@import 'locucao';

@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu a {
+  background-color: #FCFCE5 important;
+  color: #695967;
+  font-weight: 600;
+}
+.menu a:hover {
+  border-radius: 5px;
+  background-color: #D6C5E8;
+}
+
+.work-timeline {
+  background-color: #FCFCE5;
+  height: auto;
+}
+.work-timeline h4 {
+  text-align: center;
+}
+.work-timeline .card {
+  border: 0px;
+}
+
+.card {
+  max-height: 100px important;
+}
+
+footer {
+  background-color: #695967;
+  color: #E8E8C5;
+}
+
+.modal-content {
+  background-color: #80659C;
+}
+
+.carousel-inner img {
+  width: 100%;
+}
+
+.television .work-timeline {
+  background-color: #FFCF90;
+}
+.television .square {
+  box-sizing: border-box;
+  width: 100px;
+  height: 10px;
+  background-color: #E89C2A;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.television h4 {
+  margin-top: 10px;
+}
+.television h4,
+.television h5,
+.television p {
+  color: #9C5E0E;
+}
+.television h3 {
+  color: #9C630E;
+}
+.television .item {
+  padding-bottom: 20px;
+}
+
+.cinema .work-timeline {
+  background-color: #40413F;
+}
+.cinema .square {
+  box-sizing: border-box;
+  width: 100px;
+  height: 10px;
+  background-color: #864406;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.cinema h4 {
+  margin-top: 10px;
+}
+.cinema h4 {
+  color: cyan;
+}
+.cinema h5,
+.cinema p {
+  color: #002F3B;
+}
+.cinema h3 {
+  color: #002F3B;
+}
+.cinema .item {
+  padding-bottom: 20px;
+}
+
+.teatro .work-timeline {
+  background-color: #FFD9BF;
+}
+.teatro .square {
+  box-sizing: border-box;
+  width: 100px;
+  height: 10px;
+  background-color: #5AB2B8;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.teatro h4 {
+  margin-top: 10px;
+}
+.teatro h4,
+.teatro h5,
+.teatro p {
+  color: #B37B56;
+}
+.teatro h3 {
+  color: #6A9EA1;
+}
+.teatro .item {
+  padding-bottom: 20px;
+}
+
+.locucao .work-timeline {
+  background-color: #B37D00;
+}
+.locucao .square {
+  box-sizing: border-box;
+  width: 100px;
+  height: 10px;
+  background-color: #FFC640;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.locucao h4 {
+  margin-top: 10px;
+}
+.locucao h4 {
+  color: #F8DD9C;
+}
+.locucao h5,
+.locucao p {
+  color: #4562A3;
+}
+.locucao h3 {
+  color: #1245B8;
+}
+.locucao .item {
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
