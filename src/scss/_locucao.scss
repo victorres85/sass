@@ -1,38 +1,82 @@
-.locucao {
-    .work-timeline {
-        background-color: #B37D00;
+$locucao-color-02: #FFC640;
+$locucao-color-03: #4562A3;
+$locucao-bg-color-01: #B37D00;
 
+.locucao {
+    width: 100%;
+
+    .work-timeline {
+        background-color: $locucao-bg-color-01;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+    }
+
+    ul {
+        width: 100%;
     }
 
     .square {
-        box-sizing: border-box;
-        width: 100px;
-        height: 10px;
-        background-color: #FFC640;
-        margin-top: 20px;
-        margin-bottom: 10px;
+        background-color: $locucao-color-02;
+
     }
 
-    h4 {
+
+
+    &__title {
+        height: 50px;
         margin-top: 10px;
 
     }
 
-    h4{
-        color: #F8DD9C;
+    h4 {
+        color: $locucao-color-02;
 
     }
-    h5,
-    p {
-        color: #4562A3;
+
+    &__text {
+        color: $locucao-color-03;
     }
 
-    h3 {
+    .row {
+        position: static;
 
-        color: #1245B8;
     }
+
+
 
     .item {
         padding-bottom: 20px;
+        display: block;
+        margin-bottom: 200px;
+        // float: left;
+        // text-align: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        height: 350px;
+    }
+
+    &__card-size {
+        min-width: 325px;
+        height: 450px;
+
+    }
+
+    &__btn {
+        border: 1px solid $locucao-color-03;
+        color: $locucao-color-03;
+        position: absolute;
+        bottom: 15px;
+    }
+
+    &__btn:hover {
+        background-color: $locucao-color-02;
+
     }
 }

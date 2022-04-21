@@ -9,6 +9,14 @@ $color-05: #695967;
     box-sizing: border-box;
 }
 
+.square {
+    box-sizing: border-box;
+    width: 100px;
+    height: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .menu {
     a {
         background-color: $bg-colour important;
@@ -56,7 +64,18 @@ footer {
     }
 }
 
+.icon-cog {
+    color: black;
+    width: auto;
+
+    &:hover {
+        color: yellow;
+    }
+}
+
+
 @import 'television';
 @import 'cinema';
 @import 'teatro';
 @import 'locucao';
+@import 'blocks';

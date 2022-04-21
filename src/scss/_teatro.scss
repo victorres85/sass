@@ -1,35 +1,53 @@
+$teatro-color-01: cyan;
+$teatro-color-02: #5AB2B8;
+$teatro-color-03: #35538b;
+$teatro-bg-color-01: #FFD9BF;
+
 .teatro {
     .work-timeline {
-        background-color: #FFD9BF;
+        background-color: $teatro-bg-color-01;
 
     }
 
     .square {
-        box-sizing: border-box;
-        width: 100px;
-        height: 10px;
-        background-color: #5AB2B8;
-        margin-top: 20px;
-        margin-bottom: 10px;
+        background-color: $teatro-color-02;
+
     }
 
-    h4 {
+    &__title {
         margin-top: 10px;
 
     }
 
-    h4,
-    h5,
-    p {
-        color: #B37B56;
+    &__text {
+        color: $teatro-color-03;
     }
 
-    h3 {
-
-        color: #6A9EA1;
-    }
 
     .item {
         padding-bottom: 20px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        height: 450px;
+    }
+
+    &__btn {
+        border: 1px solid $teatro-color-03;
+        color: $teatro-color-03;
+        position: fixed;
+        bottom: 15%;
+    }
+
+    &__btn:hover {
+        background-color: $teatro-color-02;
+
+    }
+
+    &__img {
+        display: block;
+        max-height: 250px;
+        width: auto;
     }
 }

@@ -1,35 +1,54 @@
-.television {
-    .work-timeline {
-        background-color: #FFCF90;
+$tv-color-01: #FFCF90;
+$tv-color-02: #E89C2A;
+$tv-color-03: #9C5E0E;
+$tv-bg-color-01: #FFCF90;
 
+
+
+.television {
+
+    .work-timeline {
+        background-color: $tv-bg-color-01;
     }
 
     .square {
-        box-sizing: border-box;
-        width: 100px;
-        height: 10px;
-        background-color: #E89C2A;
-        margin-top: 20px;
-        margin-bottom: 10px;
+
+        background-color: $tv-color-02;
+
     }
 
-    h4 {
+    &__title {
         margin-top: 10px;
 
     }
 
-    h4,
-    h5,
-    p {
-        color: #9C5E0E;
-    }
-
-    h3 {
-
-        color: #9C630E;
+    &__text {
+        color: $tv-color-03;
     }
 
     .item {
         padding-bottom: 20px;
+
+    }
+
+    &__img {
+        max-height: 250px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        height: 450px;
+    }
+
+    &__btn {
+        border: 1px solid $tv-color-03;
+        color: $tv-color-03;
+        position: fixed;
+        bottom: 15%;
+    }
+
+    &__btn:hover {
+        background-color: $tv-color-02;
+
     }
 }

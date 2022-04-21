@@ -1,38 +1,52 @@
+$cinema-bg-color-01: #8A8C88;
+$cinema-color-02: #4f453F;
+$cinema-color-03: #002F3B;
+$cinema-color-01: #838C7A;
+
+
 .cinema {
     .work-timeline {
-        background-color: #40413F;
+        background-color: $cinema-bg-color-01;
 
     }
 
     .square {
-        box-sizing: border-box;
-        width: 100px;
-        height: 10px;
-        background-color: #864406;
-        margin-top: 20px;
-        margin-bottom: 10px;
+
+        background-color: $cinema-color-02;
+
     }
 
-    h4 {
+    &__title {
         margin-top: 10px;
 
     }
 
     h4 {
-        color: cyan;
+        color: $cinema-color-03;
     }
 
-    h5,
-    p {
-        color: #002F3B;
-    }
-
-    h3 {
-
-        color: #002F3B;
+    &__text {
+        color: $cinema-color-03;
     }
 
     .item {
         padding-bottom: 20px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        height: 450px;
+    }
+
+    &__btn {
+        border: 1px solid $cinema-color-03;
+        color: $cinema-color-03;
+        position: fixed;
+        bottom: 15%;
+    }
+
+    &__btn:hover {
+        background-color: $cinema-color-02;
+
     }
 }
